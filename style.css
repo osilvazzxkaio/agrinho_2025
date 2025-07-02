@@ -1,0 +1,91 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #009966;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Seção sobre */
+.sobre {
+    padding: 20px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 2rem;
+    color: #009966;
+    margin-bottom: 10px;
+}
+
+.sobre p {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Galeria */
+.galeria {
+    background-color: #e2f7e2;
+    padding: 20px 0;
+}
+
+.galeria h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #009966;
+    margin-bottom: 20px;
+}
+
+.galeria .imagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1rem;
+}
